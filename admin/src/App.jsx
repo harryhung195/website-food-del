@@ -10,7 +10,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 const App = () => {
-  const url = "https://website-food-del.vercel.app"
+  const url = "https://website-food-del-admin.vercel.app"
   return (
     <div>
       <ToastContainer/>
