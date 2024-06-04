@@ -11,7 +11,7 @@ import orderRouter from './routes/orderRoute.js';
 
 //app config
 const app = express();
-const port = https://website-food-del.vercel.app/;
+const port = 4000;
 //middle ware
 app.use(express.json());
 app.use(cors());
@@ -30,7 +30,10 @@ app.get('/', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server Started on https://website-food-del.vercel.app/`);
+  console.log(`Server Started on http://localhost:${port}`);
 });
+
+
+
 
 
